@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: #f6f8f9;
+}
+
+header{          /*Intestazione */
+  background-color: white;
+  padding: 15px 20px;
+}
+
+header > .logo, .intestazione{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav{            /* NAV */
+  background-color: white;
+  margin: 50px 100px 5px;
+  padding: 15px 20px;
+}
+nav > button{
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+#task{
+  border: 0;
+  color: white;
+  background-color: #47adf1;
+}
+#section{
+  color: #444851;
+  background-color: white;
+  border: solid #c5cbd0 1px;
+}                            /* /NAV */
+
+main{                    /* contenitore main */
+  background-color: white;
+  margin: 0px 100px 50px;
+  padding: 30px 20px;
+  color: #444851;
+}
+
+.check-mark{                           /* Check mark*/
+  margin-right: 5px;
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 2px 5px;
+  font-size: 10px;
+}
+
+.check-mark.verde{
+  color: green;
+}
+
+.check-mark.rosso{                           /* /Check mark*/
+  color: red;
+}
+
+.sotto-titolo, .titolo{                           /* TESTO*/
+  margin: 15px 0;
+}
+
+.etichetta{                           /* ETICHETTE*/
+  margin: 0 5px;
+  font-size: 10px;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 50px;
+}
+
+.etichetta.editorial{
+  background-color: #45abea;
+}
+.etichetta.q1-goals{
+  background-color: #9c72e4;
+}
+.etichetta.recruiting{
+  background-color: #64c0a9;
+}
+.etichetta.mobile{
+  background-color: #f29e33;
+}
+.etichetta.website{
+  background-color: #d863a1;
+}
+.etichetta.sales{
+  background-color: #b0c926;
+}
